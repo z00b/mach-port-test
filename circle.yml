@@ -1,3 +1,7 @@
+machine:
+  environment:
+    XCODE_PROJECT: IgnoreMe.xcodeproj
+    XCODE_SCHEME: IgnoreMe
 dependencies:
   override:
     - echo nothing to do
