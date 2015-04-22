@@ -1,0 +1,6 @@
+dependencies:
+  override:
+    - echo nothing to do
+test:
+  override:
+    - make test && make clean
