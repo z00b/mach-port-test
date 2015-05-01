@@ -3,6 +3,8 @@ machine:
     XCODE_PROJECT: IgnoreMe.xcodeproj
     XCODE_SCHEME: IgnoreMe
 dependencies:
+  pre:
+    - sudo xcode-select --switch /Applications/Xcode-6.3.1.app
   override:
     - echo nothing to do
 test:
