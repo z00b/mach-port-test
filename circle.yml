@@ -8,6 +8,7 @@ dependencies:
   pre:
     - xcodebuild -version
     - xcodebuild -showsdks
+    - pod --version
   override:
     - echo nothing to do
 test:
