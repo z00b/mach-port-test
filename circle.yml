@@ -5,6 +5,7 @@ machine:
 dependencies:
   pre:
     - sudo xcode-select --switch /Applications/Xcode-6.3.1.app
+    - xcodebuild -version
   override:
     - echo nothing to do
 test:
