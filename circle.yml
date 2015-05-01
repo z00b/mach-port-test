@@ -7,6 +7,7 @@ machine:
 dependencies:
   pre:
     - xcodebuild -version
+    - xcodebuild -showsdks
   override:
     - echo nothing to do
 test:
